@@ -9,7 +9,7 @@ class Deck {
     getDeck() {
         return deck;
     }
-    newDeck(includeJokers, howMany) {
+    newDeck(includeJokers) {
 
 
         for (let suit of suits) {
